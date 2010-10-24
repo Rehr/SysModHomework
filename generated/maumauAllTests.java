@@ -26,6 +26,8 @@ public class maumauAllTests
          suite = new TestSuite ( );
 
          // collabStat call
+         suite.addTestSuite (Scenario_2Test.class);
+         // collabStat call
          suite.addTestSuite (Scenario_1Test.class);
          // collabStat call
          suite.setName ("maumauAllTests");
